@@ -1,0 +1,35 @@
+{
+  "name": "telegram-redirect-messages",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aigoncharov/telegram-redirect-messages.git"
+  },
+  "author": "Andrey Goncharov (andrey@goncharov.page)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aigoncharov/telegram-redirect-messages/issues"
+  },
+  "homepage": "https://github.com/aigoncharov/telegram-redirect-messages#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.0",
+    "coveralls": "^3.1.0",
+    "doctoc": "^1.4.0",
+    "husky": "^4.2.5",
+    "jest": "^26.0.1",
+    "lint-staged": "^10.2.9",
+    "prettier": "^2.0.5",
+    "shx": "^0.3.2",
+    "ts-jest": "^26.1.0",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "tdl": "^6.1.0",
+    "tdl-tdlib-ffi": "^1.4.0"
+  }
+}
